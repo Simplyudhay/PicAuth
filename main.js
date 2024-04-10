@@ -79,7 +79,7 @@ function signin() {
  function sendMail3(){
     emailjs.send('service_e8cicfj', 'template_q8mnmhs')
     .then(function(res){
-        // console.log("Success", res.status);
+        console.log("Success", res.status);
         alert("mail sent successfully");
     })
 }
