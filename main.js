@@ -77,14 +77,14 @@ function signin() {
     }
 }
  function sendMail3(){
-    emailjs.send('service_7q1sn6s', 'template_v7f98gs')
+    emailjs.send('service_e8cicfj', 'template_q8mnmhs')
     .then(function(res){
         // console.log("Success", res.status);
         alert("mail sent successfully");
     })
 }
 function sendMail2(){
-    emailjs.send('service_7q1sn6s', 'template_ogw30ms')
+    emailjs.send('service_e8cicfj', 'template_q8mnmhs')
     .then(function(res){
         // console.log("Success", res.status);
         alert("mail sent successfully");
