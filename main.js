@@ -93,5 +93,5 @@ function sendMail2(){
 
 function NewTab() {
     window.open(
-      "https://www.simplyudhay.tech", "_blank");
+      "https://nextgen.rmkec.ac.in/home", "_blank");
 }
